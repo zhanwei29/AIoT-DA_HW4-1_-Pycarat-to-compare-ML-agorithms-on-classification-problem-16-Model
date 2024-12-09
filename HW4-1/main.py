@@ -11,8 +11,8 @@ plt.style.use('seaborn')
 
 # 加载数据集
 try:
-    data_train = pd.read_csv(r"D:\vs code\AIoT_Project\AutoML_Ensemble model optimization\HW4-1\train.csv")
-    data_test = pd.read_csv(r"D:\vs code\AIoT_Project\AutoML_Ensemble model optimization\HW4-1\test.csv")
+    data_train = pd.read_csv(r"train.csv_path")
+    data_test = pd.read_csv(r"test.csv_path")
 except FileNotFoundError as e:
     print(f"Error: {e}")
     exit()
@@ -111,7 +111,7 @@ else:
     raise ValueError("无法找到预测列，请检查预测结果的列名！")
 
 # 保存预测结果为 CSV 文件
-output_path = r"D:\vs code\AIoT_Project\AutoML_Ensemble model optimization\HW4-1\predictions.csv"
+output_path = r"predictions.csv_path"
 submission.to_csv(output_path, index=False)
 print(f"预测结果已保存到：{output_path}")
 
