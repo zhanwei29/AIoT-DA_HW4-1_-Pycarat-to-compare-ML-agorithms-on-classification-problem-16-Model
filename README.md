@@ -1,7 +1,7 @@
 # AIoT-DA_HW4-1_-Pycarat-to-compare-ML-agorithms-on-classification-problem-16-Model
 Pycarat to compare ML agorithms on classification problem 16 Model (multi-features titanic is ok , ) 
 -------------------------------------------
-
+#the submitted score of my prediction on kaggle is 0.73684
 #注意train.csv和test.csv放的路徑要記得修改
 
 #prompt1
